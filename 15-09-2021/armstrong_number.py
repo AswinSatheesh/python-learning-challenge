@@ -1,4 +1,7 @@
 # Armstrong number
+'''
+source = https://www.programiz.com/python-programming/examples/armstrong-number
+'''
 
 num = int(input("Enter the number to check the if it's armstrong or not :"))
 
@@ -21,8 +24,10 @@ if num == sum:
 else:
     print(num, "is not an Armstrong number")
 
+'''
+-------------------------------------------------------------
 
-# -------------------------------------------------------------
+'''
 #finding armstrong number using same method!
 
 num = int(input("Enter Non-Negative numbers to check if it is a armstrong or not :"))
