@@ -1,6 +1,7 @@
 #Python program to swap first and last elements in a list
-# method1
+#reference link : https://www.geeksforgeeks.org/python-program-to-interchange-first-and-last-elements-in-a-list/
 
+# method1
 
 # Swap function
 def swap_list(list):
@@ -42,3 +43,29 @@ def swap_list(list):
 
 new_list = [5,10,15,20]
 print(swap_list(new_list))
+
+
+#method 4
+
+def swap_list(list):
+
+    # the usage of * operarnd
+    start, *middle, end = list
+    list = [end, *middle, start]
+    return list
+
+lis = [1,3,6,9,12]
+print(swap_list(lis))
+
+#method 5
+
+def swap_list(list):
+    first = list.pop(0)
+    last  = list.pop(-1)
+
+    list.insert(0,last)
+    list.append(first)
+    return list
+
+newlist = [2,4,6,8]
+print(swap_list(newlist))
