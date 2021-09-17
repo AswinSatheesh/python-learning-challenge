@@ -27,3 +27,18 @@ def swap_list(newlist):
 newlist = [1,2,4,5]
 print(swap_list(newlist))
 
+
+#method3
+def swap_list(list):
+
+    # Storing the first and last element
+    # as a pair in a tuple variable get
+    get = list[0], list[-1]
+
+    # unpacking those elements
+    list[-1], list[0] = get
+    return list
+
+
+new_list = [5,10,15,20]
+print(swap_list(new_list))
