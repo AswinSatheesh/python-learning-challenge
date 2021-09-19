@@ -7,4 +7,14 @@ def multiply_list(ls):
     return result 
 
 list = [5, 10, 15, 20, 25]
-print(multiply_list(list))
+# print(multiply_list(list))
+
+
+
+#multiply all values in list using  numpy.prod()
+
+import numpy
+
+list1 = [1, 2, 3, 4, 5]
+answer = numpy.prod(list1)     # using numpy.prod() to get the multiplications
+print(answer)
