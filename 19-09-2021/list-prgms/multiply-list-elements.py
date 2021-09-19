@@ -1,4 +1,3 @@
-
 # Python program to multiply all values in the list using traversal
  
 def multiply_list(ls):
