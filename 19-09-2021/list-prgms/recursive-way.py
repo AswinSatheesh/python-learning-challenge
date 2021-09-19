@@ -10,3 +10,13 @@ def sum_of_list(list, size):
 
 list = [1, 2, 3, 4, 5]
 print("sum of elements in the list is : ",sum_of_list(list, len(list)))
+
+
+
+# Python program to find sum of elements in list using sum() method.
+
+new_list = [6,7,8,9,10]
+
+total_sum = sum(new_list)
+
+print("sum of elements in the list by using sum() method is :",total_sum)
